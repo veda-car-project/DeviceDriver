@@ -1,5 +1,8 @@
 // app.c - simple test app for /dev/tankmotor (PWM+DIR version)
 // no server needed
+// 빌드 시 명령어
+//$ gcc -O2 -Wall -o app app.c
+//$ sudo ./app
 #include <stdio.h>
 #include <string.h>
 #include <fcntl.h>

@@ -18,12 +18,12 @@ MODULE_VERSION("1.1");
 
 
 //모터 1 변수 선언 (Motor A)
-static int a_pwm = 12;   // PWMA = PWM 넣을 핀 번호 (BCM 12)
-static int a_dir = 5;    // DIRA = 방향 결정 핀 (BCM 5)
+static int a_pwm = 524;   // PWMA = PWM 넣을 핀 번호 (BCM 12)
+static int a_dir = 517;    // DIRA = 방향 결정 핀 (BCM 5)
 
 //모터 2 변수 선언 (Motor B)
-static int b_pwm = 13;   // PWMB = PWM 넣을 핀 번호 (BCM 13)
-static int b_dir = 6;    // DIRB = 방향 결정 핀 (BCM 6)
+static int b_pwm = 525;   // PWMB = PWM 넣을 핀 번호 (BCM 13)
+static int b_dir = 518;    // DIRB = 방향 결정 핀 (BCM 6)
 
 //추가 설명 : DIR은 정방향/역방향 결정하는거, PWM = 속도(PWM) 넣을 핀 번호임.
 
